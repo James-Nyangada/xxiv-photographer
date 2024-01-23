@@ -81,7 +81,7 @@ const PartnerSection = (props) => {
     return (
 
         <section className={`partners-section ${props.pClass}`}>
-            <h2>Over 32K+ software businesses growing with</h2>
+            <h2>Organizations I have worked with</h2>
             <div className="container">
                 <div className="row">
                     <div className="col col-xs-12">

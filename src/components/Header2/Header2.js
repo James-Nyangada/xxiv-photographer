@@ -46,8 +46,8 @@ const Header2 = (props) => {
                                     </nav>
                                 </div>
                             </div>
-                            <div className="col-xl-2 col-lg-2 col-md-4 col-3 text-left">
-                                <li><Link onClick={ClickHandler} to="/contact">_contact</Link></li>
+                            <div className="contact-me col-xl-2 col-lg-2 col-md-4 col-3 text-left">
+                                <li style={{listStyle: 'none' }}><Link style={{background:'#FF4A3B', padding: '15px', borderRadius: '7px', color: 'white', fontWeight: 'bold'}} onClick={ClickHandler} to="/contact">_contact</Link></li>
                             </div>
                             <div className="col-1">
                                 <MobileMenu />

@@ -1754,6 +1754,9 @@ a.ui-button:active,
 .header-style-4 ul > li > a.menu-item.active {
   color: #FF4A3B;
 }
+.contact-me li{
+  list-style: none;
+}
 
 /*--------------------------------------------------------------
 1.2 Hero Style

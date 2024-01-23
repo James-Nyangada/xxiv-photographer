@@ -28,18 +28,14 @@ const AboutMePage = (props) => {
                         <div className="col-lg-8">
                             <div className="about-page-left">
                                 <div className="about-content">
-                                    <h2>Jane Cooper</h2>
-                                    <h3>UX/ UI Designer</h3>
-                                    <p>Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur
-                                        ligula, eget egestas magna mi ut arcu. Phasellus nec odio orci. Nunc id
-                                        massa ante. Suspendisse sit amet neque euismod, convallis quam eget,
-                                        dignissim massa. Aliquam blandit risus purus, in congue nunc venenatis id.
-                                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-                                        ac turpis egestas. Integer nec quam ut tortor efficitur consectetur sed
-                                        vitae nisi. Phasellus convallis vulputate euismod. Pellentesque lacinia
-                                        rutrum libero, sit amet aliquam ante viverra a. Ut sem ipsum, tempor nec
-                                        rutrum in, gravida eu ipsum.</p>
-                                </div>
+                                    <h2>Meet Gabriel</h2>
+                                    <h3>Professional Photographer</h3>
+                                    <p>At the age of 19, I am currently engaged in part-time professional photography, specializing in freelance work encompassing product, business, and portrait photography. My educational background includes studies at Lukenya Academy, followed by enrollment at The Nairobi School in 2018. Presently, I am pursuing a degree in Architecture at JKUAT.
+
+                                    The choice of the name XXIV holds significance as it represents the Roman numeral equivalent of 24, which is my birth date and a favorite number of personal significance. What initially began as a photographic hobby has evolved into a professional pursuit over the past few months.
+
+                                    I express sincere gratitude to my friends, family, and clients whose support has been instrumental in fostering my growth within this dynamic field. I am committed to delivering high-quality photography services and continually honing my skills to meet the diverse needs of my clientele</p>
+                                    </div>
 
                                 <div className="event-section">
                                     <div className="container">

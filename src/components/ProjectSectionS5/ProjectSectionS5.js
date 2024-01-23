@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Slide } from "react-awesome-reveal";
 import Isotope from 'isotope-layout';
 import imagesLoaded from 'imagesloaded';
+import './project.css'
 
 const ProjectSectionS5 = (props) => {
 
@@ -46,13 +47,13 @@ const ProjectSectionS5 = (props) => {
                                         <button onClick={() => handleFilterClick('*')} className={activeFilter === '*' ? 'active' : ''}>All</button>
                                     </li>
                                     <li>
-                                        <button onClick={() => handleFilterClick('.BranDing')} className={activeFilter === '.BranDing' ? 'active' : ''}>Branding-app</button>
+                                        <button onClick={() => handleFilterClick('.BranDing')} className={activeFilter === '.BranDing' ? 'active' : ''}>Weddings</button>
                                     </li>
                                     <li>
-                                        <button onClick={() => handleFilterClick('.landing')} className={activeFilter === '.landing' ? 'active' : ''}>Landing app</button>
+                                        <button onClick={() => handleFilterClick('.landing')} className={activeFilter === '.landing' ? 'active' : ''}>Birthdays</button>
                                     </li>
                                     <li>
-                                        <button onClick={() => handleFilterClick('.web')} className={activeFilter === '.web' ? 'active' : ''}>Web design</button>
+                                        <button onClick={() => handleFilterClick('.web')} className={activeFilter === '.web' ? 'active' : ''}>Portraits</button>
                                     </li>
                                 </ul>
                             </div>
@@ -62,7 +63,7 @@ const ProjectSectionS5 = (props) => {
                                         <Slide direction='up' triggerOnce={'false'}>
                                             <div className="project-item">
                                                 <div className="project-img">
-                                                    <img src={project.pImg} alt="" />
+                                                    <img className='animate-image' src={project.pImg} alt="" />
                                                 </div>
                                                 <div className="project-text">
                                                     <div className="project-left">
