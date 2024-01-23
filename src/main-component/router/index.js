@@ -13,6 +13,7 @@ import ProjectSinglePage from '../ProjectSinglePage/ProjectSinglePage';
 import ServicePage from '../ServicePage/ServicePage';
 import PricingPage from '../PricingPage/PricingPage';
 import BlogGridPage from '../BlogGridPage/BlogGridPage';
+import EquipmentTools from '../EquipmentTools/EquipmentTools';
 import BlogRightPage from '../BlogRightPage/BlogRightPage';
 import BlogLeftPage from '../BlogLeftPage/BlogLeftPage';
 import BlogFullPage from '../BlogFullPage/BlogFullPage';
@@ -40,6 +41,7 @@ const AllRoute = () => {
           <Route path="portfolio-s2" element={<PortfolioPageS2 />} />
           <Route path="portfolio-s3" element={<PortfolioPageS3 />} />
           <Route path="project-single/:slug" element={<ProjectSinglePage />} />
+          <Route path="/equipment-tools" element= {<EquipmentTools/>}/>
           <Route path="blog-grid" element={<BlogGridPage />} />
           <Route path="blog-right-sidebar" element={<BlogRightPage />} />
           <Route path="blog-left-sidebar" element={<BlogLeftPage />} />

@@ -30,20 +30,80 @@ const ServiceSinglePage = (props) => {
                         <div className="col-lg-8 order-lg-2 order-1">
                             <div className="service-single-wrap">
                                 <h2>{ServiceDetails.title}</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a nisi et libero
-                                    sodales dictum sit amet eu neque. Donec luctus, arcu eget viverra varius, nisi
-                                    mi imperdiet nisl, quis porta lorem arcu a mi. Fusce pellentesque vehicula erat,
-                                    nec blandit odio accumsan eget. Nam sem massa, venenatis ut nibh nec, tincidunt
-                                    posuere metus. Sed rhoncus ut massa id ultrices. Praesent lacus enim, vulputate
-                                    eget mi in, tincidunt solli citudin erat. Nullam bibendum cons ectetur odio nec
-                                    blandit. In varius non lectus vitae interdum. Etiam quam erat, semper sit amet
-                                    volutpat a, vestibulum ac odio. Quisque sit amet augue vel augue cursus commodo
-                                    et eu eros. Praesent eget libero tincidunt, suscipit tellus quis, mollis lacus.
-                                    Suspe ndisse ullamcorper nisl et mattis vestibulum. Nulla vel sodales lorem, id
-                                    tristique felis. Sed eu pharetra orci, eu placerat risus. Duis congue enim
-                                    molestie, tempor augue id, rhoncus odio vehicula.
-                                    Nunc nec diam at diam tincidunt vehicula eget nec enim. Sed ultrices viverra
-                                    augue, quis fermentum magna semper ac.</p>
+                                <p>Gear
+                                        I am a Nikon photographer, using the Nikon D5600 with 24.2MP DX-Format CMOS Sensor
+
+                                        EXPEED 4 Image Processor
+
+                                        Effective Pixels (Megapix﻿els)
+
+                                        24.2 million
+
+                                        Sensor Size
+
+                                        23.5 mm x 15.6 mm
+
+                                        Image Sensor Format
+
+                                        DX
+
+                                        Storage Media
+
+                                        SD
+
+                                        SDHC
+
+                                        SDXC
+
+                                        ISO Sensitivity
+
+                                        ISO Min-100 - Max-25,600
+
+                                        Movie
+
+                                        Full HD 1,920x1,080 / 60 fps
+
+                                        Full HD 1,920x1,080 / 50 fps
+
+                                        Full HD 1,920x1,080 / 30 fps
+
+                                        Full HD 1,920x1,080 / 25 fps
+
+                                        Full HD 1,920x1,080 / 24 fps
+
+                                        HD 1,280x720 / 60 fps
+
+                                        HD 1,280x720 / 50 fps
+
+                                        Actual frame rates for 60p, 50p, 30p, 25p, and 24p are 59.94, 50, 29.97, 25, and 23.976 fps respectively; options support both high and normal image quality
+
+                                        Monitor Size
+
+                                        3.2 in. diagonal
+
+                                        Monitor Type
+
+                                        Wide Viewing Angle
+
+                                        Vari-angle Touch TFT-LCD
+
+                                        Eye Sensor Control
+
+                                        Battery
+
+                                        EN-EL14a Rechargeable Li-ion Battery
+
+
+
+
+
+                                        Lenses
+                                        Kit 18-55mm F/3.5-5.6
+
+                                        Yongnou 50mm F/1.8 prime
+
+                                        Nikon Af-s Dx Nikkor 18-300mm F/3.5-6.3g Ed Vr Lens 
+                                </p>
                                 <div className="inner-img">
                                     <div className="row">
                                         <div className="col-sm-6 col-12">

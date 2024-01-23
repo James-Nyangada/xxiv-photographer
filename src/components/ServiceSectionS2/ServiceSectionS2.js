@@ -28,7 +28,7 @@ const ServiceSectionS2 = (props) => {
                                         <Slide direction='up' triggerOnce={'false'}>
                                             <div className="service-item">
                                                 <i><img src={service.sIcon} alt="" /></i>
-                                                <h2><Link onClick={ClickHandler} to={`/service-single/${service.slug}`}>{service.title}</Link></h2>
+                                                <h2><Link onClick={ClickHandler} to={`/equipment-tools`}>{service.title}</Link></h2>
                                                 <p>{service.des2}</p>
                                             </div>
                                         </Slide>

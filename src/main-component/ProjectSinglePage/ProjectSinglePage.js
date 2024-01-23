@@ -38,7 +38,7 @@ const ProjectSinglePage = (props) => {
                                     <div className="portfolio-text-items">
                                         <div className="portfolio-text-item">
                                             <h4>Client:</h4>
-                                            <span>Robert Fox</span>
+                                            <span>Robert</span>
                                         </div>
                                         <div className="portfolio-text-item">
                                             <h4>Designer:</h4>

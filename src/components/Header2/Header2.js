@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../images/logo-2.svg'
+import logo from '../../images/logo.png'
 import MobileMenu from '../MobileMenu/MobileMenu';
 
 
@@ -48,6 +48,7 @@ const Header2 = (props) => {
                             </div>
                             <div className="contact-me col-xl-2 col-lg-2 col-md-4 col-3 text-left">
                                 <li style={{listStyle: 'none' }}><Link style={{background:'#FF4A3B', padding: '15px', borderRadius: '7px', color: 'white', fontWeight: 'bold'}} onClick={ClickHandler} to="/contact">_contact</Link></li>
+
                             </div>
                             <div className="col-1">
                                 <MobileMenu />
