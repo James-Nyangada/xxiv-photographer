@@ -30,3 +30,19 @@
     --_i: 10%;
     filter: grayscale(0);
   }
+
+  /* Media query for tablets (e.g., iPad) */
+@media (max-width: 768px) {
+  .container-image {
+      width: 100%;
+  }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+  .container-image {
+      width: 100%;
+      margin-bottom: 10vh; /* Adjust as needed for smaller screens */
+      margin-top: 2vh; /* Adjust as needed for smaller screens */
+  }
+}

@@ -101,3 +101,32 @@
   .containers .box:hover .content p {
     transform: translateY(0px);
   }
+  /* Media query for tablets (e.g., iPad) */
+@media (max-width: 768px) {
+  .containers {
+      width: 100%;
+  }
+
+  .containers .box {
+      width: calc(50% - 20px);
+      margin-right: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+  .containers {
+      width: 100%;
+      margin-bottom: 10vh; /* Adjust as needed for smaller screens */
+      margin-top: 2vh; /* Adjust as needed for smaller screens */
+  }
+
+  .containers .box {
+      width: calc(100% - 20px);
+      margin-right: 0;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+}
