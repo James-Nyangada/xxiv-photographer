@@ -32,7 +32,7 @@ const CreativeService = (props) => {
             <div className="container">
                 <div className="features-wrap">
                     <div className="features-items" onMouseMove={handleItemHover}>
-                        <Link onClick={ClickHandler} to="/services" className="features-item">Wedding photos
+                        <Link onClick={ClickHandler} to="/baby-photos" className="features-item">Baby photos
                             <span className="features-masking" style={{
                                 transform: `translate(${hoveredImagePosition.x}px, ${hoveredImagePosition.y}px)`,
                             }}>
@@ -41,7 +41,7 @@ const CreativeService = (props) => {
                         </Link>
                     </div>
                     <div className="features-items" onMouseMove={handleItemHover}>
-                        <Link onClick={ClickHandler} to="/services" className="features-item" >Party Photos
+                        <Link onClick={ClickHandler} to="/birthday-photo" className="features-item" >Birthday Photos
                             <span className="features-masking" style={{
                                 transform: `translate(${hoveredImagePosition.x}px, ${hoveredImagePosition.y}px)`,
                             }}>
@@ -59,7 +59,7 @@ const CreativeService = (props) => {
                         </Link>
                     </div>
                     <div className="features-items" onMouseMove={handleItemHover}>
-                        <Link onClick={ClickHandler} to="/services" className="features-item"> Artistic portraits
+                        <Link onClick={ClickHandler} to="/portrait" className="features-item"> Artistic portraits
                             <span className="features-masking" style={{
                                 transform: `translate(${hoveredImagePosition.x}px, ${hoveredImagePosition.y}px)`,
                             }}>
