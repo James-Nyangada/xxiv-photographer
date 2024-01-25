@@ -47,7 +47,7 @@ const ProjectSectionS5 = (props) => {
                                         <button onClick={() => handleFilterClick('*')} className={activeFilter === '*' ? 'active' : ''}>All</button>
                                     </li>
                                     <li>
-                                        <button onClick={() => handleFilterClick('.BranDing')} className={activeFilter === '.BranDing' ? 'active' : ''}>Weddings</button>
+                                        <button onClick={() => handleFilterClick('.BranDing')} className={activeFilter === '.BranDing' ? 'active' : ''}>Baby Photos</button>
                                     </li>
                                     <li>
                                         <button onClick={() => handleFilterClick('.landing')} className={activeFilter === '.landing' ? 'active' : ''}>Birthdays</button>
