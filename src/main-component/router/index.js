@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import HomePage3 from '../HomePage3/HomePage3';
 import BabyPhotoPage from '../BabyPhotoPage/BabyPhotoPage';
+import BirthdayPhotoPage from '../BirthdayPhotoPage/BirthdayPhotoPage';
 import AboutMePage from '../AboutMePage/AboutMePage';
 import AboutUsPage from '../AboutUsPage/AboutUsPage';
 import TeamPage from '../TeamPage/TeamPage';
@@ -31,6 +32,7 @@ const AllRoute = () => {
         <Routes>
           <Route path="/" element={<HomePage3 />} />
           <Route path= "baby-photos" element = {<BabyPhotoPage/>} />
+          <Route path= "birthday-photo" element = {<BirthdayPhotoPage/>} />
           <Route path="about-me" element={<AboutMePage />} />
           <Route path="about-us" element={<AboutUsPage />} />
           <Route path="services" element={<ServicePage />} />

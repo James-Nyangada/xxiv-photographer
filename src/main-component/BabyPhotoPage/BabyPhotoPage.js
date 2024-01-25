@@ -7,11 +7,11 @@ import BabyPhotoImages from '../../components/BabyImages/BabyPhotoImages';
 const BabyPhotoPage = () => {
   return (
     <Fragment>
-    <Header2 hclass={'header-style-3'} />
-    <BabyPhotoImages/>
-    <Footer />
-    <Scrollbar />
-</Fragment>
+      <Header2 hclass={'header-style-3'} />
+      <BabyPhotoImages/>
+      <Footer />
+      <Scrollbar />
+  </Fragment>
   )
 }
 
