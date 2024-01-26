@@ -33,7 +33,12 @@ const menus = [
         id: 88,
         title: '_contact',
         link: '/contact',
-    }
+    },
+    {
+        id: 90,
+        title: '_book now',
+        link: '/booking',
+    },
 
 
 ]

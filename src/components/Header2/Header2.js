@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../images/logo.png'
 import MobileMenu from '../MobileMenu/MobileMenu';
+import './header.css'
 
 
 const Header2 = (props) => {
@@ -32,22 +33,22 @@ const Header2 = (props) => {
                                     <nav id="mobile-menu">
                                         <ul className="nav">
                                             <li className="has-submenu">
-                                                <Link onClick={ClickHandler} to="/">_home</Link>
+                                                <Link onClick={ClickHandler} to="/about-me">_about me</Link>
                                                
                                             </li>
                                             
-                                            <li className="has-submenu"><Link onClick={ClickHandler} to="/about-me">_about me</Link>
-                                            </li>
-
                                             <li className="has-submenu"><Link onClick={ClickHandler} to="/portfolio">_portfolio</Link>
                                             </li>
-                                            <li><Link onClick={ClickHandler} to="/pricing">Pricing</Link></li>
+
+                                            <li className="has-submenu"><Link onClick={ClickHandler} to="/pricing">_pricing</Link>
+                                            </li>
+                                            <li><Link onClick={ClickHandler} to="/contact">_contact</Link></li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
                             <div className="contact-me col-xl-2 col-lg-2 col-md-4 col-3 text-left">
-                                <li style={{listStyle: 'none' }}><Link style={{background:'#FF4A3B', padding: '15px', borderRadius: '7px', color: 'white', fontWeight: 'bold'}} onClick={ClickHandler} to="/contact">_contact</Link></li>
+                                <li style={{listStyle: 'none' }}><Link style={{background:'#FF4A3B', padding: '15px', borderRadius: '7px', color: 'white', fontWeight: 'bold'}} onClick={ClickHandler} to="/booking">booknow</Link></li>
 
                             </div>
                             <div className="col-1">
