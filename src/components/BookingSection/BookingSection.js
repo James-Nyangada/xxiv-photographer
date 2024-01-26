@@ -106,7 +106,7 @@ const BookingSection = () => {
 
                     <textarea style={{height: '100px'}} placeholder='Enter Full detail of location of Event' name='location'></textarea>
 
-                    <textarea style={{height: '200px'}} placeholder='If there is any special request fell free to inform me ' name='message'></textarea>
+                    <textarea style={{height: '200px'}} placeholder='If there is any special request feel free to inform me ' name='message'></textarea>
 
                     <button>
                         book Now
