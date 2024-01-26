@@ -17,7 +17,7 @@ const BookingSection = () => {
                 <p>
                     Empowering memories. Discover with XXIV
                 </p>
-                <div className='contact-me'>
+                <div className='contact-mes'>
                     <div className='location'>
                         <h3>
                             My Office
