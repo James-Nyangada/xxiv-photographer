@@ -4,6 +4,7 @@ import HomePage3 from '../HomePage3/HomePage3';
 import BabyPhotoPage from '../BabyPhotoPage/BabyPhotoPage';
 import BirthdayPhotoPage from '../BirthdayPhotoPage/BirthdayPhotoPage';
 import PortraitPage from '../PortraitPage/PortraitPage';
+import BookingPage from '../BookingPage/BookingPage';
 import AboutMePage from '../AboutMePage/AboutMePage';
 import AboutUsPage from '../AboutUsPage/AboutUsPage';
 import TeamPage from '../TeamPage/TeamPage';
@@ -35,6 +36,7 @@ const AllRoute = () => {
           <Route path= "baby-photos" element = {<BabyPhotoPage/>} />
           <Route path= "birthday-photo" element = {<BirthdayPhotoPage/>} />
           <Route path= "portrait" element= {<PortraitPage/>} />
+          <Route path= "booking" element= {<BookingPage/>} />
           <Route path="about-me" element={<AboutMePage />} />
           <Route path="about-us" element={<AboutUsPage />} />
           <Route path="services" element={<ServicePage />} />
