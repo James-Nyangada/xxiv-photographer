@@ -185,6 +185,16 @@
     color: black;
     border: 1px solid #ff4a3b;
   }
+  .submit-message{
+   background: #FF4A3B;
+   padding: 4px;
+   margin-top: 4px;
+   border-radius: 10px;   
+  }
+  .submit-message p{
+    color: black;
+    font-weight: bold;
+  }
 
 @media (max-width: 768px) {
     .first-column {
@@ -227,4 +237,5 @@
     .event-info label{
         margin-bottom: 50px;
     }
+
 }

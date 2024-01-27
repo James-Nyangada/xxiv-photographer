@@ -1,13 +1,33 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import { SiGmail } from "react-icons/si";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { RiTiktokLine } from "react-icons/ri";
+import { useState } from "react";
+import emailjs from 'emailjs-com'
 import './booking.css'
 
 const BookingSection = () => {
+    const form = useRef();
+    const [isFormSubmitted, setIsFormSubmitted] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_33u9ida', 'template_d26d5uf', form.current, 'TnzMO9hv0JCBpskBP')
+    
+    form.current.reset();
+    setIsFormSubmitted(true);
+
+    e.target.reset()
+
+     // Reset success message after a delay (you can adjust the delay as needed)
+     setTimeout(() => {
+        setIsFormSubmitted(false);
+      }, 6000);
+  };
   return (
     <div>
         <h1 className="section-title">Book Now!</h1>
@@ -66,7 +86,7 @@ const BookingSection = () => {
 
             {/* SECOND COLUMN */}
             
-                <form className='second-column'>
+                <form ref={form} onSubmit={sendEmail} className='second-column'>
                     <h3>Book a session now</h3>
                     <span></span>
                     <input className='full-name' placeholder='Full Name' type='text' name='name' required></input>
@@ -108,11 +128,18 @@ const BookingSection = () => {
 
                     <textarea style={{height: '200px'}} placeholder='If there is any special request feel free to inform me ' name='message'></textarea>
 
-                    <button>
+                    {isFormSubmitted && (
+                        <div className="submit-message">
+                            <p>Your Booking has been recieved succesfully!</p>
+                        </div>
+                    )}
+
+                    <button type='submit'>
                         book Now
                     </button>
 
 
+                    
                 </form>
            
         </div>
